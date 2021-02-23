@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/shopcategories"
+            android:title="@string/shop_by_category" />
+
+        <item
+            android:id="@+id/nav_brands"
+            android:icon="@drawable/shopbrand"
+            android:title="@string/feature" />
+
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_add"
+            android:title="@string/nav_order" />
+
+
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/wallet"
+            android:title="@string/nav_wallet" />
+
+
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/gift"
+            android:title="@string/nav_rewards" />
+
+    </group>
+    <group android:id="@+id/menu_bottom">
+
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="@string/nav_about" />
+
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contactus"
+            android:title="@string/nav_contact" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="@string/nav_help" />
+
+
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/pvcy"
+            android:title="@string/nav_terms" />
+
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/rateus"
+            android:title="@string/nav_review" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="@string/nav_share" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/nav_logout" />
+
+    </group>
+</menu>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:singleLine="true"
+            android:text="@string/enter_card"
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/card_no"
+            android:paddingTop="0dp"
+            android:singleLine="true"
+            android:textColor="@color/slate_gray"
+            android:textSize="14sp"></EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/mm"
+                    android:textColor="@color/slate_gray"
+                    android:textSize="14sp"></TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sp_background">
+
+                    <Spinner
+                        android:id="@+id/sp_mm"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+
+                        >
+
+                    </Spinner>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/yy"
+                    android:textColor="@color/slate_gray"
+                    android:textSize="14sp"></TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sp_background">
+
+                    <Spinner
+                        android:id="@+id/sp_yy"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp">
+
+                    </Spinner>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_cholder_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/holder_name"
+            android:paddingTop="0dp"
+            android:singleLine="true"
+            android:textColor="@color/slate_gray"
+            android:textSize="14sp"></EditText>
+
+        <EditText
+            android:id="@+id/et_clabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/card_label"
+            android:paddingTop="0dp"
+            android:singleLine="true"
+            android:textColor="@color/slate_gray"
+            android:textSize="14sp"></EditText>
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@color/green"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+</LinearLayout>

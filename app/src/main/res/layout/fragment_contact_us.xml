@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/light_gray">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:background="@color/green"
+            android:src="@drawable/contact_us"></ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_office_addr"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_marginRight="@dimen/space_5"
+            android:layout_below="@+id/iv_contact"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_ho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/line"
+                    android:layout_marginRight="@dimen/space_5"
+                    android:layout_marginLeft="@dimen/space_5"
+                    android:layout_marginBottom="@dimen/space_5"
+                    android:layout_marginTop="@dimen/space_4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/head_off"
+                        android:textColor="@color/slate_gray"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold"></TextView>
+
+
+                    <Fonts.LatoBLack
+                        android:id="@+id/tv_ho_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/head_off_address"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_size_small">
+
+                    </Fonts.LatoBLack>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/dark_gray" />
+
+                <LinearLayout
+                    android:id="@+id/ll_bo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_5"
+                    android:layout_marginTop="@dimen/space_4"
+                    android:layout_marginRight="@dimen/space_5"
+                    android:layout_marginLeft="@dimen/space_5"
+                    android:layout_toRightOf="@+id/ll_ho"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/branch_off"
+                        android:textColor="@color/slate_gray"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold"></TextView>
+
+
+                    <Fonts.LatoBLack
+                        android:id="@+id/tv_bo_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/branch_off_address"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_size_small">
+
+                    </Fonts.LatoBLack>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_map"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/cv_office_addr"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_7"
+            android:layout_marginRight="@dimen/space_5"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Fonts.LatoBLack
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_5"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/space_5"
+                    android:text="@string/location"
+                    android:textColor="@color/slate_gray"
+                    android:textSize="16sp"></Fonts.LatoBLack>
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_marginLeft="@dimen/space_5"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/space_5"
+                    android:layout_marginBottom="7dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv_map"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_7"
+            android:layout_marginRight="@dimen/space_5"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_5"
+                android:layout_marginRight="@dimen/space_5"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/your_name"
+                    android:layout_marginTop="@dimen/space_12"
+                    android:textSize="@dimen/text_size_small"></EditText>
+
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:hint="@string/your_email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="@dimen/text_size_small"></EditText>
+
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:hint="@string/your_phone"
+                    android:inputType="phone"
+                    android:textSize="@dimen/text_size_small"></EditText>
+
+
+                <EditText
+                    android:id="@+id/et_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="6"
+                    android:minLines="3"
+                    android:scrollbars="vertical"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:hint="@string/your_msg"
+                    android:inputType="textMultiLine"
+                    android:textSize="@dimen/text_size_small"></EditText>
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/green"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"></Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_social_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv_info"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_7"
+            android:layout_marginRight="@dimen/space_5"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:id="@+id/iv_fb"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:src="@drawable/fb"></ImageView>
+
+                <ImageView
+                    android:id="@+id/iv_twitter"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/twitter"></ImageView>
+
+                <ImageView
+                    android:id="@+id/iv_insta"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/insta"></ImageView>
+
+                <ImageView
+                    android:id="@+id/iv_linkedin"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/linkedin"></ImageView>
+
+                <ImageView
+                    android:id="@+id/iv_utube"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/utube"></ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_logo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/green">
+
+        <TextView
+            android:id="@+id/tv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_XX_large"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_login_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_20"
+            android:text="@string/tv_deli_mobile"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_4"
+            android:layout_marginBottom="@dimen/space_10"
+            android:ems="10"
+            android:hint="Enter 10 digit mobile no."
+            android:inputType="phone"
+            android:maxLength="10"
+            tools:ignore="LabelFor"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <Fonts.LatoBLack
+                android:id="@+id/tv_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="Enter OTP :"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/et_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_4"
+                android:layout_marginBottom="@dimen/space_10"
+                android:ems="4"
+                android:inputType="phone"
+                android:maxLength="4"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_otp_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <Fonts.LatoBLack
+                android:id="@+id/tv_enter_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="@string/enter_otp_within"
+                android:textColor="@color/dark_gray"
+                android:textStyle="bold"
+                android:textSize="13sp" />
+
+                <Fonts.LatoBLack
+                    android:id="@+id/tv_resend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:text="@string/resend"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_bt"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/ll_container">
+    </Button>
+
+    <Fonts.LatoBLack
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_9"
+        android:text="@string/otp_msg"
+        android:layout_below="@+id/btn_continue"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/dark_gray"
+        android:textSize="11sp" />
+
+
+</RelativeLayout>

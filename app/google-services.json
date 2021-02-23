@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "13257793487",
+    "firebase_url": "https://gropal-33935.firebaseio.com",
+    "project_id": "gropal-33935",
+    "storage_bucket": "gropal-33935.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13257793487:android:c634704abc0f9f7821fcba",
+        "android_client_info": {
+          "package_name": "gropal.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13257793487-3stff7nav9t57pf3n4raabn4jnr7j7ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gropal.in",
+            "certificate_hash": "2ef0e22fa7027bf0a77047a1e0a83437a08f3232"
+          }
+        },
+        {
+          "client_id": "13257793487-mibad6lq6it6qt31u5v4jps1d0meksk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGa8EQHUpc-uHwhszVApusLK_J7uV8vX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13257793487-mibad6lq6it6qt31u5v4jps1d0meksk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

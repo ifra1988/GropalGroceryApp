@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_header_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/space_8"
+            android:src="@drawable/user" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_first_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:paddingTop="0dp"
+                android:hint="@string/first_name"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/slate_gray"
+                android:textSize="14sp"></EditText>
+
+            <EditText
+                android:id="@+id/et_last_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:paddingTop="0dp"
+                android:hint="@string/last_name"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/slate_gray"
+                android:textSize="14sp"></EditText>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:singleLine="true"
+            android:layout_marginTop="7dp"
+            android:hint="@string/et_login_phone_hint"
+            android:inputType="phone"
+            android:textColor="@color/slate_gray"
+            android:textSize="@dimen/space_14" />
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:singleLine="true"
+            android:layout_marginTop="7dp"
+            android:hint="@string/email_add"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/slate_gray"
+            android:textSize="@dimen/space_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/sp_background"
+                >
+            <Spinner
+                android:id="@+id/sp_gender"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                tools:ignore="LabelFor"
+                android:hint="@string/gender"
+                android:inputType="text"
+                android:dropDownWidth="match_parent"
+                android:textColor="@color/slate_gray"
+                android:textSize="@dimen/space_14"
+                />
+            </RelativeLayout>
+            <EditText
+                android:id="@+id/et_dob"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:hint="@string/dob"
+                android:inputType="text"
+                android:textColor="@color/slate_gray"
+                android:textSize="@dimen/space_14" />
+
+            <ImageView
+                android:id="@+id/iv_calender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/calender"></ImageView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <CheckBox
+                android:id="@+id/cb_tick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></CheckBox>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_emails"
+                android:textColor="@color/slate_gray"
+                android:textSize="13sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:text="@string/save_profile"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>

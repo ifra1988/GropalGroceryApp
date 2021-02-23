@@ -1,0 +1,344 @@
+<resources>
+    <string name="app_name" translatable="false">Gropal</string>
+    <string name="name" translatable="false">SameCiti - Customer</string>
+    <string name="currency" translatable="false">\u20B9</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="txtCredits" translatable="false"><a href="http://www.google.com">Google</a></string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="nav_terms" translatable="false">Terms &amp; Privacy</string>
+    <string name="terms_conds" translatable="false">Terms &amp; Condition</string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="privacy_policy_msg" translatable="false">Lorem ipsum dolor sit amet,0Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,orem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit </string>
+    <string name="terms_cond_msg" translatable="false">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit </string>
+    <string name="offer" translatable="false">Offer</string>
+    <string name="start_time" translatable="false">Start Time :</string>
+    <string name="end_time" translatable="false">Ends in :</string>
+    <string name="wallet" translatable="false">Wallet Used</string>
+    <string name="coupon_used" translatable="false">Coupon Used</string>
+    <string name="apply" translatable="false">Apply</string>
+    <!-- string.xml -->
+    <string name="nav_home" translatable="false">Home</string>
+    <string name="nav_chat" translatable="false">Chat with us</string>
+    <string name="nav_user" translatable="false">User</string>
+    <string name="nav_order" translatable="false">My Orders</string>
+    <string name="nav_profile" translatable="false">My Profile</string>
+    <string name="nav_support" translatable="false">Support</string>
+    <string name="nav_about" translatable="false">About us</string>
+    <string name="failed" translatable="false">Sorry,Your Payment Has Failed</string>
+    <string name="again" translatable="false">Please Try Again</string>
+    <string name="retry" translatable="false">Retry Order</string>
+    <string name="nav_review" translatable="false">Rate &amp; review us</string>
+    <string name="nav_contact" translatable="false">Contact Us</string>
+    <string name="nav_share" translatable="false">Share with Friends</string>
+    <string name="nav_logout" translatable="false">Logout</string>
+    <string name="btn_continue" translatable="false">Continue</string>
+    <string name="btn_Register" translatable="false">Register</string>
+    <string name="rewards_points" translatable="false">Rewards Points</string>
+    <string name="rech_wallet" translatable="false">Recharge Wallet</string>
+    <string name="continue_bt" translatable="false">Continue</string>
+    <string name="wall_am" translatable="false">My Wallet Amount</string>
+    <!-- activity_login.xml -->
+    <string name="et_login_phone_hint" translatable="false">Mobile Number</string>
+    <string name="tv_login_email" translatable="false">Email</string>
+    <string name="tv_login_password" translatable="false">Password</string>
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="btn_send" translatable="false">Send</string>
+    <string name="tv_login_note" translatable="false">Before continue with application you must verify your mobile number. Our system will sent you OTP code on registered mobile number</string>
+    <string name="login_register" translatable="false">Login/Register</string>
+
+    <!-- activity_register.xml -->
+    <string name="tv_reg" translatable="false">Register</string>
+    <string name="tv_reg_name_hint">Name</string>
+    <string name="tv_reg_pincode">Pincode/Area Code/Zip</string>
+    <string name="tv_reg_socity">Society/Flat</string>
+    <string name="order_amount" translatable="false">Order Amount</string>
+    <string name="btn_reg_socity_choose">Choose Society...</string>
+    <string name="tv_reg_house">House Number</string>
+    <string name="amount_pa" translatable="false">Amount Payable</string>
+    <string name="add_del" translatable="false">Add delivery address</string>
+    <string name="btn_reg_update">Update Profile</string>
+    <string name="et_reg_search">Search Society...</string>
+    <string name="et_sea" translatable="false">Search Society..</string>
+    <string name="total" translatable="false">Total :</string>
+    <string name="tv_reg_note">Note : service available for RAJKOT only</string>
+    <string name="tv_reg_address">Address(Required)</string>
+    <string name="et_reg_address">Complete Address</string>
+    <string name="use" translatable="false">Use</string>
+    <string name="store" translatable="false">Store Pick Up</string>
+    <string name="confirm_order" translatable="false">Confirm</string>
+    <string name="pickup" translatable="false">PickUp / COD</string>
+    <string name="cash" translatable="false">Cash On Delivery</string>
+    <!-- fragment_cart.xml -->
+    <string name="tv_cart_title">Cart</string>
+    <string name="debit" translatable="false">Debit / Credit Card</string>
+    <string name="net" translatable="false">Net Banking</string>
+    <string name="card" translatable="false">Cards</string>
+    <string name="promo" translatable="false">Promo Code</string>
+    <string name="tv_cart_clear">Clear All Product</string>
+    <string name="tv_cart_checkout">Continue Checkout</string>
+    <string name="tv_cart_total">Total:\u0020</string>
+    <string name="tv_cart_item">Items:\u0020</string>
+    <string name="tv_cart_rs">\u0020Rs</string>
+    <string name="coupon" translatable="false">Coupon</string>
+    <string name="sure_del" translatable="false">Are you sure!
+    you want to delete all cart product</string>
+    <!-- fragment_delivery_time.xml -->
+    <string name="tv_del_title">Delivery Date/Time</string>
+    <string name="tv_del_address">Delivery Address</string>
+    <string name="et_del_address_hint">Enter Delivery address..</string>
+    <string name="tv_del_continue">Continue With Time</string>
+    <string name="tv_del_date">Select delivery date</string>
+    <string name="tv_del_time">Select delivery time</string>
+    <string name="tv_del_date_time">Delivery Data/Time</string>
+    <string name="tv_total_item_amount">Total Items And Amount</string>
+    <string name="tv_total_total">Total Amount </string>
+
+    <!-- fragment_home.xml -->
+    <string name="tv_home_cat">Products</string>
+    <string name="tv_home_view">View all ></string>
+    <string name="checkout" translatable="false">Checkout</string>
+    <!-- fragment_Wallet.xml -->
+    <string name="tv_app_name">Wallet</string>
+    <string name="tv_product_name" translatable="false">Products</string>
+    <string name="selling_product" translatable="false">Top selling products</string>
+    <string name="deals" translatable="false">Deals of the day</string>
+    <string name="view_all" translatable="false">See all</string>
+    <string name="sponsered" translatable="false">Sponsored</string>
+    <string name="shop_by_category" translatable="false">Shop by Categories</string>
+    <string name="shop_now" translatable="false">Shop Now</string>
+    <string name="feature" translatable="false">Shop by brands</string>
+    <string name="condition" translatable="false">Condition</string>
+    <!-- fragment_Reward.xml -->
+    <string name="tv_toolbar_name" translatable="false">Rewards</string>
+    <!-- row_product_rv.xml -->
+    <string name="tv_pro_add">ADD</string>
+    <string name="tv_pro_update">Update</string>
+    <string name="tv_pro_price">Price per\u0020</string>
+
+    <string name="tv_toolbar_price" translatable="false">Price :</string>
+    <string name="tv_toolbar_redeem" translatable="false">Redeem</string>
+    <string name="tv_out" translatable="false">Out of stock</string>
+    <string name="tv_rech" translatable="false">Enter Wallet Amount</string>
+    <string name="tv_rech_wall" translatable="false">Recharge</string>
+    <string name="tv_mywall" translatable="false">Recharge Wallet</string>
+
+    <string name="tv_pro_rs">\u0020Rs.\u0020</string>
+    <string name="tv_pro_total">Total: </string>
+
+    <!-- fragment_confirm_order.xml -->
+    <string name="tv_conf_order_title">Payment Details</string>
+
+    <!-- fragment_my_order_detail.xml -->
+    <string name="tv_order_cancle">Cancel Order</string>
+    <string name="tv_order_summery">Summary</string>
+    <string name="tv_order_total">Total: Rs.</string>
+    <string name="tv_order_qty">Qty</string>
+    <string name="tv_order_rs">Rs.</string>
+    <!-- fragment_order_thanks.xml -->
+    <string name="tv_thanks_title" translatable="false">Thank you for your order.</string>
+    <string name="tv_thanks_home" translatable="false">Continue home</string>
+    <string name="tv_thanks_order" translatable="false">Track my order</string>
+    <string name="thanks" translatable="false">Thanks Order</string>
+    <string name="paytm" translatable="false">Paytm</string>
+    <!-- Forgot password -->
+    <string name="forgot">Forgot Password ?</string>
+
+    <!-- Code message and concat  string -->
+    <string name="my_order" translatable="false">My Order</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="delivery" translatable="false">Delivery</string>
+    <string name="delivery_date" translatable="false">"Delivery Date: </string>
+    <string name="please_select_date" translatable="false">Please select date</string>
+    <string name="no_rcord_found" translatable="false">No record found</string>
+    <string name="connection_time_out" translatable="false">Connection Time out</string>
+    <string name="add_delivery_address" translatable="false">Add Delivery Address</string>
+    <string name="order_now" translatable="false">Order Now</string>
+    <string name="payment_detail" translatable="false">Payment Details</string>
+    <string name="delivery_time" translatable="false">Delivery time</string>
+    <string name="please_enter_pincode" translatable="false">Please enter pincode</string>
+    <string name="receiver_mobile_number" translatable="false">Receiver Mobile Number(Required)</string>
+    <string name="receiver_name_req" translatable="false">Receiver Name(Required)</string>
+    <string name="phone_too_short" translatable="false">Phone Too short</string>
+    <string name="please_add_address">Please add address</string>
+    <string name="pay" translatable="false">Payment</string>
+    <string name="please_select_address">Please select address</string>
+    <string name="please_select_date_time">Please select date and time</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="uploading_profile_data">Uploading profile data</string>
+    <string name="cancle_order_note">Are you sure!\nyou want to cancle order ?</string>
+    <string name="no">No</string>
+    <string name="order_id" translatable="false">Order Id</string>
+    <string name="order_detail" translatable="false">Order Detail</string>
+    <string name="yes">Yes</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="order_mode" translatable="false">Order Mode</string>
+    <string name="tracking_st" translatable="false">Tracking Status On</string>
+    <string name="tt_t" translatable="false">Total Items</string>
+    <string name="thank_you">Thank you</string>
+    <string name="date_d" translatable="false">Date:</string>
+    <string name="time_t" translatable="false">Time:</string>
+    <string name="place_on" translatable="false">Placed On:</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="contact" translatable="false">اContact Us</string>
+    <string name="order_fail" translatable="false">Order Fail</string>
+    <string name="cart_em" translatable="false">Your Cart is empty!</string>
+    <string name="cart" translatable="false">Cart</string>
+    <string name="add_cart" translatable="false">Add items to it now</string>
+    <string name="password_too_short">Password Too short</string>
+    <string name="invalide_email_address" translatable="false">Invalid email address</string>
+    <string name="no_internet" translatable="false">Sorry! Not connected to internet</string>
+    <string name="order_no" translatable="false">Order No.:\u0020</string>
+    <string name="pending" translatable="false">Pending</string>
+    <string name="confirm" translatable="false">Confirm</string>
+    <string name="delivered" translatable="false">Delivered</string>
+    <string name="outfordeliverd" translatable="false">Out for Delivered\nReady to pickup</string>
+    <string name="cancle" translatable="false">Cancel</string>
+    <string name="date">Date:\u0020</string>
+    <string name="time">Time:\u0020</string>
+    <!--Method String-->
+    <string name="method_one">PickUP</string>
+    <string name="method_two">COD</string>
+    <string name="method_three">Cards</string>
+    <string name="method_four">NetBanking</string>
+    <string name="past" translatable="false">Past Order</string>
+    <string name="add" translatable="false">Address</string>
+    <string name="searchh" translatable="false">Search</string>
+    <string name="search_msg" translatable="false">Search Vegetables, Fruit etc</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password (Required)</string>
+    <string name="new_password">New Password (Required)</string>
+    <string name="confirm_password">Confirm Password (Required)</string>
+    <string name="password_not_same">Confirm Password and New Password not same.</string>
+    <string name="delivery_charge" translatable="false">Delivery Charges.:\u0020</string>
+    <string name="amount" translatable="false">Amount:\u0020</string>
+    <string name="search_here">Search here...</string>
+    <string name="total_amount">Total Amount:\u0020</string>
+    <string name="search">Search</string>
+    <string name="enter_keyword">Please Enter Keyword</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="description">Description</string>
+
+    <!-- row_delivery_time.xml -->
+    <string name="tv_deli_socity">Society:</string>
+    <string name="tv_deli_mobile">Mobile No.:</string>
+    <string name="tv_deli_pin">Pincode:</string>
+
+    <!-- delivery_payment_detail_fragment.java -->
+    <string name="tv_deli_pay_ontime">On time :\u0020</string>
+    <string name="tv_deli_pay_address">Address:\u0020</string>
+
+    <!-- delivery_get_address_adapter.java -->
+    <string name="reciver_name">Receiver Name:\u0020</string>
+    <string name="reciver_mobile">Receiver Mobile No.:\u0020</string>
+    <string name="pincode">Pincode:\u0020</string>
+    <string name="house_no">House No.:\u0020</string>
+    <string name="socity">Society:\u0020</string>
+
+    <!-- bottom navigation menu items -->
+    <string name="order" translatable="false">Order</string>
+    <string name="reward" translatable="false">Reward</string>
+    <string name="basket" translatable="false">Basket</string>
+    <string name="account" translatable="false">Account</string>
+
+    <string name="status_stop">Powered By <font color="#f7941e">GoGrocer</font></string>
+    <string name="enter_otp_within">Enter OTP within</string>
+    <string name="sec">sec</string>
+
+    <string name="loc_search_msg" translatable="false">Search for area or landmark</string>
+    <string name="search_history" translatable="false">Search history</string>
+    <string name="use_current_loc" translatable="false">Use my location</string>
+    <string name="clear" translatable="false">Clear</string>
+    <string name="places_api_key" translatable="false">AIzaSyBasQFsOdnejOI_XyZbpmqRAnd9X_Tlyeo</string>
+
+    <string name="mrp_label" translatable="false">Product MRP:</string>
+    <string name="sell_price_label" translatable="false">Selling Price:</string>
+    <string name="inclusive_taxes" translatable="false">(Inclusive of all taxes)</string>
+
+    <string name="verify" translatable="false">Verify</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="resend" translatable="false">Resend</string>
+    <string name="otp_msg" translatable="false">We will send you one time password to your mobile number</string>
+    <string name="phone_error_msg" translatable="false">Please enter a valid mobile number.</string>
+    <string name="nav_wallet" translatable="false">My wallet</string>
+    <string name="nav_rewards" translatable="false">My rewards</string>
+    <string name="nav_help" translatable="false">Help &amp; Support</string>
+    <string name="head_off" translatable="false">Delhi(Head office)</string>
+    <string name="branch_off" translatable="false">Bihar(Branch office)</string>
+    <string name="branch_off_address" translatable="false">123 A garden town street 1 phase 5 lahore</string>
+    <string name="head_off_address" translatable="false">Second Floor, B-1, B Block, Gautam Buddha Nagar Sector - 8, Noida, Uttar Pradesh Pincode 201301</string>
+    <string name="location" translatable="false">Location on Map</string>
+    <string name="your_name" translatable="false">Your name</string>
+    <string name="your_email" translatable="false">Your Email Address</string>
+    <string name="your_phone" translatable="false">Your Phone Number</string>
+    <string name="your_msg" translatable="false">Type your message here...</string>
+    <string name="submit" translatable="false">SUBMIT</string>
+    <string name="help_msg" translatable="false">We\'re here to help you with anything and everything on Gropal</string>
+    <string name="search_help" translatable="false">Search help</string>
+    <string name="faq" translatable="false">FAQ</string>
+    <string name="q1" translatable="false">What is gropal?</string>
+    <string name="q2" translatable="false">Why choose gropal?</string>
+    <string name="q3" translatable="false">What gropal lines are available?</string>
+    <string name="q4" translatable="false">What are the different stops?</string>
+    <string name="q5" translatable="false">Is there a list of judgments?</string>
+    <string name="q6" translatable="false">What if I cannot find a stop?</string>
+    <string name="still_stuck" translatable="false">Still stuck? Help is a mail away</string>
+    <string name="call_us" translatable="false">Call us</string>
+    <string name="email_us" translatable="false">Email us</string>
+    <string name="why_us" translatable="false"><u>Why us</u></string>
+    <string name="our_mission" translatable="false"><u>Our mission</u></string>
+    <string name="categories" translatable="false">Categories</string>
+    <string name="first_name" translatable="false">First Name</string>
+    <string name="last_name" translatable="false">Last Name</string>
+    <string name="email_add" translatable="false">Email Address</string>
+    <string name="gender" translatable="false">Gender</string>
+    <string name="dob" translatable="false">DoB(MM/DD/YYYY)</string>
+    <string name="send_emails" translatable="false">Send me emails on promotions, offers and services</string>
+    <string name="save_profile" translatable="false">Save profile</string>
+    <string name="empty_fName" translatable="false">Please enter first name.</string>
+    <string name="empty_lName" translatable="false">Please enter last name.</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="other" translatable="false">Other</string>
+    <string name="guest" translatable="false">Guest</string>
+    <string name="my_profile" translatable="false">My profile</string>
+    <string name="delv_address" translatable="false">Delivery address</string>
+    <string name="my_rewards" translatable="false">My rewards</string>
+    <string name="my_orders" translatable="false">My orders</string>
+    <string name="my_wallet" translatable="false">My wallet</string>
+    <string name="default_payment" translatable="false">Default payments</string>
+    <string name="enter_card" translatable="false">Enter card details</string>
+    <string name="card_no" translatable="false">Card Number</string>
+    <string name="mm" translatable="false">MM</string>
+    <string name="yy" translatable="false">YYYY</string>
+    <string name="holder_name" translatable="false">Cardholder\'s name</string>
+    <string name="card_label" translatable="false">Card Label(optional)</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="add_your_card" translatable="false">Add your card</string>
+    <string name="change" translatable="false">Change</string>
+    <string name="delivery_add" translatable="false">Delivery address</string>
+    <string name="flat_no" translatable="false">Flat/House No</string>
+    <string name="street" translatable="false">Gali/Street</string>
+    <string name="colony" translatable="false">Mohalla/Colony</string>
+    <string name="village" translatable="false">Village/Society</string>
+    <string name="city" translatable="false">City/Town</string>
+    <string name="pin" translatable="false">Pincode</string>
+    <string name="address_type" translatable="false">Address type</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="office" translatable="false">Office</string>
+    <string name="shop" translatable="false">Shop</string>
+    <string name="others" translatable="false">Others</string>
+    <string name="save_address" translatable="false">Save Address</string>
+    <string name="your_order_delivery" translatable="false">Your order will be delivered here</string>
+    <string name="similar_prods" translatable="false">Similar Products</string>
+    <string name="top_selling" translatable="false">Top selling</string>
+    <string name="expired" translatable="false">Expired</string>
+    <string name="unit" translatable="false">Unit</string>
+
+
+</resources>

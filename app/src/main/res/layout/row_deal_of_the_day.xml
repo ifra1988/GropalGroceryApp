@@ -1,0 +1,142 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:id="@+id/showproduct"
+        android:layout_width="match_parent"
+        android:layout_height="330dp">
+
+
+            <Fonts.LatoBLack
+                android:id="@+id/end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:text="Ends in 4:00 hrs"
+                android:fontFamily="@font/bold"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:background="@color/color_2"
+                android:textSize="@dimen/text_size_normal" />
+
+
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="225dp"
+            android:layout_height="225dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/end_time"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_icon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:text="Product Name"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="10Kg"
+            android:textSize="@dimen/text_size_small" />
+
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name"
+            android:layout_marginLeft="5dp"
+            android:text="10%"
+            android:textColor="@color/light_green"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:id="@+id/llPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_discount"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/space_3"
+            android:orientation="horizontal">
+
+
+            <Fonts.LatoBLack
+                android:id="@+id/offer_product_prize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Fonts.LatoBLack
+                android:id="@+id/product_prize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_5"
+                android:text="rs85"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/tv_discount"
+            android:layout_alignParentRight="true"
+            android:background="@color/green"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/tv_pro_add"></Button>
+
+        <ImageView
+            android:id="@+id/iv_cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_discount"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:src="@drawable/cross">
+        </ImageView>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

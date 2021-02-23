@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/nav_home"/>
+
+    <item
+        android:id="@+id/navigation_oder"
+        android:icon="@drawable/ic_add"
+        android:title="@string/order"/>
+
+    <item
+        android:id="@+id/navigation_reward"
+        android:icon="@drawable/gift"
+        android:title="@string/reward"/>
+
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/wallet"
+        android:title="@string/tv_app_name"/>
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/account"/>
+</menu>

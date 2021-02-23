@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+    <Fonts.LatoBLack
+        android:id="@+id/text_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAllCaps="false"
+        android:textColor="@color/slate_gray"
+        android:text="Ram"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

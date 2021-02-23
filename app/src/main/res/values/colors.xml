@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00857B</color>
+    <color name="colorPrimaryDark">#006F66</color>
+    <color name="colorAccent">#D5B996</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#E3E3E3</color>
+    <color name="black">#000000</color>
+    <color name="slate_gray">#708090</color>
+    <color name="blackTransparent">#5C000000</color>
+    <color name="dark_black">#000000</color>
+    <color name="dark_gray">#FFBAB7B7</color>
+    <color name="color_1">#1bdc84</color>
+    <color name="color_2">#1E90FF</color>
+    <color name="color_3">#ff0023</color>
+    <color name="orange">#FFA500</color>
+    <color name="yelow">#ffee05</color>
+    <color name="purple">#ed0bc0</color>
+    <color name="light_green">#36c336</color>
+    <color name="green">#D5B996</color>
+    <color name="violet">#fce9fc</color>
+    <color name="light_gray">#faf5f5</color>
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+
+    <color name="circle_pink">#ffe6ea</color>
+    <color name="circle_yellow">#ffe6ea</color>
+    <color name="red">#8B0000</color>
+
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/navigation_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:id="@+id/iv_order"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_order"
+        android:padding="5dp"
+        android:background="@drawable/circle_green">
+    </ImageView>
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_order"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bold"
+            android:textSize="@dimen/space_12"
+            android:textColor="@color/black"
+            android:text="@string/order"></Fonts.LatoBLack>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navigation_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/iv_reward"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gift"
+            android:padding="10dp"
+            android:background="@drawable/circle_pale_yellow">
+        </ImageView>
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_reward"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bold"
+            android:textSize="@dimen/space_12"
+            android:textColor="@color/black"
+            android:text="@string/reward"></Fonts.LatoBLack>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navigation_wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/iv_wallet"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wallet"
+            android:padding="10dp"
+            android:background="@drawable/circle_blue">
+        </ImageView>
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_wallet"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bold"
+            android:textSize="@dimen/space_12"
+            android:textColor="@color/black"
+            android:text="@string/tv_app_name"></Fonts.LatoBLack>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/navigation_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/iv_account"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_nav_profile"
+            android:padding="10dp"
+            android:background="@drawable/circle_pink">
+        </ImageView>
+
+        <Fonts.LatoBLack
+            android:id="@+id/tv_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_account"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/space_12"
+            android:text="@string/profile"></Fonts.LatoBLack>
+
+    </RelativeLayout>
+
+</LinearLayout>
